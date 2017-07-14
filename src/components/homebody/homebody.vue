@@ -70,15 +70,12 @@
 
 <script>
   import Vue from 'vue';
-  import Mint from 'mint-ui';
-  import 'mint-ui/lib/style.css';
 
   import itemCombo from '../itemCombo/itemcombo.vue'
   import itemCombo2 from '../itemCombo/itemcombo2.vue'
   import itemCombo3 from '../itemCombo/itemcombo3.vue'
   import itemCombo4 from '../itemCombo/itemcombo4.vue'
 
-  Vue.use(Mint);
   import { Swipe, SwipeItem } from 'mint-ui';
   export default {
     components: {

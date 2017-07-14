@@ -1,0 +1,330 @@
+{
+  "news": {
+    "weeknews":[
+      {"name": "最近一周新品"},
+      {
+        "content": [
+          {
+            "type": 0,
+            "title": "纱窗修补贴(6片装)",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/ac41fde600ce46479656a489d4e58b8d_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 1,
+            "title": "锌合金核桃夹",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4298eb9c58a847e0bc10d9f8403c3a52_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 2,
+            "title": "冰淇淋勺",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/bb45f763616d447fa9fea98b4bce6901_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 3,
+            "title": "上开式可叠加收纳箱",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/ad5bea9a90a4406ba540382f4d24e2ae_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 4,
+            "title": "超柔卫生马桶垫（2套装）",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/97dd37f3a1f44b7a99371de9356c5757_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 5,
+            "title": "铝合金门后挂钩",
+            "price": "35",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5f4e0a73d2254e4dbca3517b59466cbd_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 6,
+            "title": "上开式夹缝收纳柜",
+            "price": "99",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4ee5fdec274b42c8b1637ac8e5cbc43c_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 7,
+            "title": "耐高温玻璃饭盒",
+            "price": "19",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/36aaa2c7500142c0bc9ee9811de8d810_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：50"
+          },
+          {
+            "type": 8,
+            "title": "女生专用省力开瓶器",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/d419d0f310e44e5b87b68983f00b07d5_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：13"
+          },
+          {
+            "type": 9,
+            "title": "洗衣防染巾(30片)",
+            "price": "19",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5bcd664da38e459aa7cf2e8c2c2542ab_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：38"
+          },
+          {
+            "type": 10,
+            "title": "全棉舒适四件套(绵羊)",
+            "price": "269",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/035a419db8154a49ba74823ac71b6553_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：9"
+          },
+          {
+            "type": 11,
+            "title": "耐磨高弹力旅行箱保护套",
+            "price": "29",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/17ef2de78aca4bdabc82697e743ca707_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：41"
+          },
+          {
+            "type": 12,
+            "title": "防滑金属衣架（3只装）",
+            "price": "29",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4e3696ca1ee14a7c80a29b98fdbcf6a6_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：14"
+          },
+          {
+            "type": 13,
+            "title": "席梦思保护套(梦幻系列)",
+            "price": "109",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/16b39b0ca5504a59b1dd8347d540287f_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：150"
+          },
+          {
+            "type": 14,
+            "title": "分类整理收纳箱",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/6b4df93f9686487cb33f072ad0cd9556_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：32"
+          },
+          {
+            "type": 15,
+            "title": "专业防水运动包",
+            "price": "49",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/1e499193e70d4ebba44f7d77edac9e86_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：59"
+          },
+          {
+            "type": 16,
+            "title": "便携式防水防污购物袋",
+            "price": "29",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/019e6f4dd8fb4c69b67291336c5ec78b_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：43"
+          },
+          {
+            "type": 17,
+            "title": "折叠式差旅多功能包",
+            "price": "69",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/07f53b859b274e158d2ab06c3bc519c5_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：67"
+          },
+          {
+            "type": 18,
+            "title": "高端合金框飞机轮商务箱",
+            "price": "399",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5e526bbd1b2d44229329b94c98724f77_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：4"
+          },
+          {
+            "type": 19,
+            "title": "全棉府绸家居服（女士套装）",
+            "price": "129",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5582916be1844f37b19a593f58cf6aa6_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：18"
+          },
+          {
+            "type": 20,
+            "title": "席梦思保护套（清新系列）",
+            "price": "109",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/0d2d1fa2c279417ea734650da173773a_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：43"
+          },
+          {
+            "type": 21,
+            "title": "天然鬃毛鞋刷(2只装)",
+            "price": "19",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/f0ee7987c9294626ba025f32913fa740_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：7"
+          },
+          {
+            "type": 22,
+            "title": "时尚仿麻储物凳",
+            "price": "69",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4bfd202426f34bbcaefe20798b219e0c_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：33"
+          }
+        ]
+      }
+    ],
+    "monthnews": [
+      {"name": "最近一月新品"},
+      {
+        "content": [
+          {
+            "type": 0,
+            "title": "纳米魔术顽渍去污擦 (10块装)",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/25a8846fbffc4786bfdb798f48203d91_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：1441"
+          },
+          {
+            "type": 1,
+            "title": "全效洗衣液(5合1)",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/e33b64e0bddb4f2cab9920b774b25fdb_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：696"
+          },
+          {
+            "type": 2,
+            "title": "超柔长柄沐浴球",
+            "price": "12",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/fbdba9f4052b42f995df887972808213_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：446"
+          },
+          {
+            "type": 3,
+            "title": "Tritan少女吸管杯",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/c5687737a6064550af15b8991bbbb2b4_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：572"
+          },
+          {
+            "type": 4,
+            "title": "超柔卫生马桶垫（2套装）",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/97dd37f3a1f44b7a99371de9356c5757_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 5,
+            "title": "铝合金门后挂钩",
+            "price": "35",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5f4e0a73d2254e4dbca3517b59466cbd_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 6,
+            "title": "上开式夹缝收纳柜",
+            "price": "99",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4ee5fdec274b42c8b1637ac8e5cbc43c_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：0"
+          },
+          {
+            "type": 7,
+            "title": "耐高温玻璃饭盒",
+            "price": "19",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/36aaa2c7500142c0bc9ee9811de8d810_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：50"
+          },
+          {
+            "type": 8,
+            "title": "女生专用省力开瓶器",
+            "price": "9",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/d419d0f310e44e5b87b68983f00b07d5_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：13"
+          },
+          {
+            "type": 9,
+            "title": "洗衣防染巾(30片)",
+            "price": "19",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/5bcd664da38e459aa7cf2e8c2c2542ab_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：38"
+          },
+          {
+            "type": 10,
+            "title": "全棉舒适四件套(绵羊)",
+            "price": "269",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/035a419db8154a49ba74823ac71b6553_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：9"
+          },
+          {
+            "type": 11,
+            "title": "耐磨高弹力旅行箱保护套",
+            "price": "29",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/17ef2de78aca4bdabc82697e743ca707_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：41"
+          },
+          {
+            "type": 12,
+            "title": "防滑金属衣架（3只装）",
+            "price": "29",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/4e3696ca1ee14a7c80a29b98fdbcf6a6_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：14"
+          },
+          {
+            "type": 13,
+            "title": "席梦思保护套(梦幻系列)",
+            "price": "109",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/16b39b0ca5504a59b1dd8347d540287f_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：150"
+          },
+          {
+            "type": 14,
+            "title": "分类整理收纳箱",
+            "price": "39",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/6b4df93f9686487cb33f072ad0cd9556_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：32"
+          },
+          {
+            "type": 15,
+            "title": "专业防水运动包",
+            "price": "49",
+            "pic": "http://i.lifevccdn.com/upload/AppItemInfoImage/1e499193e70d4ebba44f7d77edac9e86_d1242x0.jpg",
+            "lable":"新",
+            "comment": "评论：59"
+          }
+        ]
+      }
+    ]
+  }
+}

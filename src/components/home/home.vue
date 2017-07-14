@@ -97,7 +97,7 @@
         // load more data
         setTimeout(() => {
           this.$refs.loadmore.onTopLoaded()
-        },1500)
+        },1000)
 //
       },
       loadBottom() {

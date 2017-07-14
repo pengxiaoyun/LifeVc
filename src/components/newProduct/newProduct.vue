@@ -1,17 +1,37 @@
 <template>
   <div>
-    <div class="wrap-shelf">
-      <div class="subcat-title">最近一周新品</div>
-      <shefItem></shefItem>
-      <shefItem></shefItem>
-      <shefItem></shefItem>
+    <div class="wrap-shelf" v-if="news.weeknews">
+      <div class="subcat-title">{{news.weeknews[0].name}}</div>
+      <shefItem :content="news.weeknews[1].content[0]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[1]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[2]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[3]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[4]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[5]"></shefItem>
+      <shefItem :content="news.weeknews[1].content[8]"></shefItem>
     </div>
   </div>
 </template>
 
 <script>
+  import axios from 'axios'
   import shefItem from '../shefItem/shef-item.vue'
   export default {
+    data () {
+      return {
+        news:{}
+      }
+    },
+    created () {
+      axios.get('/api/new')
+        .then(response => {
+          const result = response.data
+          console.log(result.data)
+          if (result.code==0) {
+            this.news = result.data
+          }
+        })
+    },
     components: {
       shefItem
     }

@@ -45,6 +45,7 @@
 
 <script>
   import Vue from 'vue'
+  import axios from 'axios'
   import { Loadmore } from 'mint-ui';
 
   Vue.component(Loadmore.name, Loadmore);
@@ -53,11 +54,13 @@
   export default {
     data () {
       return {
+        stop: false,
         toTop: false,
         dataTimer: null,
         dataStop: false
       }
     },
+
     mounted() {
       this.$nextTick(() => {
         window.addEventListener('scroll', this.needToTop);  //滚动事件监听
