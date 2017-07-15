@@ -46,6 +46,7 @@
 </template>
 
 <script>
+  import usercenter from '../usercenter/usercenter.vue'
   import { Toast } from 'mint-ui';
 
   export default {

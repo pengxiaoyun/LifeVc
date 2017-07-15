@@ -8,3 +8,8 @@ Mock.mock('/api/new', {
   data: data.news
 })
 
+Mock.mock('/api/stroll', {
+  code: 0,
+  data: data.strolls
+})
+

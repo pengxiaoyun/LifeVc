@@ -1,18 +1,18 @@
 <template>
 <div>
 
-  <div class="stroll-item">
-    <div class="stroll-type-item">
+  <div class="stroll-item" v-if="strolls">
+    <div class="stroll-type-item" v-for="stroll in strolls">
       <div class="stroll-item-layer">
-        <img class="stroll-item-img" src="http://i.lifevccdn.com/upload/stroll/e726ff1fb1d44685a91cf76ff56d5018.jpg" lazy="loaded">
+        <img class="stroll-item-img" :src="stroll.pic" >
         <span class="tag-new">New</span>
       </div>
       <h3 class="stroll-item-title">
-        <a href="">分类整理收纳箱</a>
+        <a href="">{{stroll.title}}</a>
       </h3>
       <div class="stroll-price-bar">
-        <span class="price">￥<em>49</em></span>
-        <span class="comment">月销 4082</span>
+        <span class="price">￥<em>{{stroll.price}}</em></span>
+        <span class="comment">{{stroll.comment}}</span>
       </div>
     </div>
   </div>
@@ -21,10 +21,14 @@
 </template>
 
 <script>
-    export default {}
+  export default {
+    props: {
+      strolls: Array
+    }
+  }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" rel="stylesheet/stylus" scoped>
   .stroll-item
     margin: 3%;
     width: 94%;

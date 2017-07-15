@@ -1,28 +1,31 @@
 <template>
-  <div class="shelf-item" style="position: relative;">
-    <a class="item-pic-bx" v-if="content">
-      <img class="item-pic" :src="content.pic">
-    </a>
-    <div class="item-panel">
-      <div class="title clearFix" v-if="content">
-        {{content.title}}
+  <div v-if="content">
+    <div class="shelf-item" v-for="content in content">
+      <a class="item-pic-bx" >
+        <img class="item-pic" :src="content.pic">
+      </a>
+      <div class="item-panel">
+        <div class="title clearFix">
+          {{content.title}}
       </div>
-      <div class="item-price">
-        <div class="price-cont" v-if="content">
-          <span >￥</span>
-          <span>{{content.price}}</span>&nbsp;
-          <span class="promo-lable">{{content.lable}}</span>
+        <div class="item-price">
+          <div class="price-cont">
+            <span >￥</span>
+            <span>{{content.price}}</span>&nbsp;
+            <span class="promo-lable">{{content.lable}}</span>
+          </div>
+          <div class="item-comment">{{content.comment}}</div>
         </div>
-        <div class="item-comment" v-if="content">{{content.comment}}</div>
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
   export default {
     props: {
-      content:Object
+      content: Array
     }
   }
 </script>
@@ -32,6 +35,7 @@
   width: 96%;
   border: 1px solid #ddd;
   margin: 2rem auto 0;
+  position: relative
   .item-pic-bx
     width: 100%;
     overflow: hidden;

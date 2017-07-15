@@ -1,16 +1,20 @@
 <template>
   <div>
-    <div class="wrap-shelf" v-if="news.weeknews">
-      <div class="subcat-title">{{news.weeknews[0].name}}</div>
-      <shefItem :content="news.weeknews[1].content[0]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[1]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[2]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[3]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[4]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[5]"></shefItem>
-      <shefItem :content="news.weeknews[1].content[8]"></shefItem>
+    <div v-if="news.weeknews">
+      <div class="wrap-shelf" v-for="content in news.weeknews[1]">
+        <div class="subcat-title">{{news.weeknews[0].name}}</div>
+        <shefItem :content="content"></shefItem>
+      </div>
+    </div>
+
+    <div v-if="news.monthnews">
+      <div class="wrap-shelf" v-for="content in news.monthnews[1]">
+        <div class="subcat-title">{{news.monthnews[0].name}}</div>
+        <shefItem :content="content"></shefItem>
+      </div>
     </div>
   </div>
+
 </template>
 
 <script>

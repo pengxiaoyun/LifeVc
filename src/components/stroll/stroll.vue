@@ -16,8 +16,7 @@
 
         <div class="clearFix">
           <div class="stroll-all-item">
-            <strollPicture></strollPicture>
-            <strollPicture></strollPicture>
+            <strollPicture :strolls="strolls"></strollPicture>
           </div>
           <div class="stroll-all-item">
 
@@ -27,9 +26,7 @@
               <div class="strollmenu-a"><span>送500元积分</span></div>
               <div class="strollmenu-a"><span>金币商城</span></div>
             </div>
-
-            <strollPicture></strollPicture>
-            <strollPicture></strollPicture>
+            <strollPicture :strolls="strolls"></strollPicture>
           </div>
         </div>
 
@@ -42,17 +39,29 @@
 
 <script>
   import Vue from 'vue'
+  import axios from 'axios'
   import { Loadmore } from 'mint-ui';
 
   Vue.component(Loadmore.name, Loadmore);
 
-  import strollPicture from './strollpicture/strollpicture.vue'
+  import strollPicture from './strollpicture.vue'
 
   export default {
     data () {
       return {
-        allLoaded: false
+        allLoaded: false,
+        strolls:[]
       }
+    },
+    created () {
+      axios.get('/api/stroll')
+        .then(response => {
+          const result = response.data
+          console.log(result.data)
+          if (result.code==0) {
+            this.strolls = result.data
+          }
+        })
     },
     components: {
       strollPicture
