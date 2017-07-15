@@ -1,8 +1,8 @@
 <template>
-  <div v-if="content">
+  <div v-if="content" ref="content">
     <div class="shelf-item" v-for="content in content">
       <a class="item-pic-bx" >
-        <img class="item-pic" :src="content.pic">
+        <img class="item-pic" :src="content.pic" v-lazy.strolls="content.pic">
       </a>
       <div class="item-panel">
         <div class="title clearFix">
@@ -23,6 +23,10 @@
 </template>
 
 <script>
+  import Vue from 'vue'
+  import { Lazyload } from 'mint-ui';
+
+  Vue.use(Lazyload);
   export default {
     props: {
       content: Array

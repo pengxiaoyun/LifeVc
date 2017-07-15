@@ -10,7 +10,6 @@ import login from '../components/login/login.vue'
 import register from '../components/register/register.vue'
 import homeBody from '../components/homebody/homebody.vue'
 import newProduct from '../components/newProduct/newProduct.vue'
-import setting from '../components/setting/setting.vue'
 
 Vue.use(Router)
 
@@ -34,7 +33,6 @@ export default new Router({
     {path: '/cart', component: cart},
     {path: '/usercenter', component: usercenter},
     {path: '/login', component: login},
-    {path: '/register', component: register},
-    {path: '/setting', component: setting}
+    {path: '/register', component: register}
   ]
 })

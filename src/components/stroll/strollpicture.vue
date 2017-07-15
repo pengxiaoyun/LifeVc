@@ -1,10 +1,10 @@
 <template>
 <div>
 
-  <div class="stroll-item" v-if="strolls">
+  <div class="stroll-item" v-if="strolls" ref="strolls">
     <div class="stroll-type-item" v-for="stroll in strolls">
       <div class="stroll-item-layer">
-        <img class="stroll-item-img" :src="stroll.pic" >
+        <img class="stroll-item-img" :src="stroll.pic" v-lazy.strolls="stroll.pic">
         <span class="tag-new">New</span>
       </div>
       <h3 class="stroll-item-title">
@@ -21,6 +21,10 @@
 </template>
 
 <script>
+  import Vue from 'vue'
+  import { Lazyload } from 'mint-ui';
+
+  Vue.use(Lazyload);
   export default {
     props: {
       strolls: Array

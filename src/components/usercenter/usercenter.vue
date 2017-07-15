@@ -3,11 +3,7 @@
     <div class="header">
       <div class="header-content">
         <p class="header-title">账户中心</p>
-        <a href="#">
-          <label class="editcart">
-            <router-link to="/setting">设置</router-link>
-          </label>
-        </a>
+          <label class="editcart">设置</label>
       </div>
     </div>
 
@@ -183,7 +179,7 @@
         // load more data
         setTimeout( () => {
           this.$refs.loadmore.onTopLoaded()
-        },1500)
+        },1000)
           this.allLoaded = true
 //        this.$refs.loadmore.onTopLoaded()
       }
